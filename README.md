@@ -1,7 +1,7 @@
 
 # 🌌 cobaltnext.nvim
 
-A Neovim colorscheme based on the Ghostty **cobaltnext-dark** palette.
+A Neovim colorscheme based on the Ghostty **cobaltnext-dark** palette, based on the [CobaltNext VSCode](https://github.com/davidleininger/cobaltnext-vscode/) (I suppose). 
 
 ## Installation (LazyVim / lazy.nvim)
 
