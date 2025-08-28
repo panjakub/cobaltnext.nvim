@@ -20,7 +20,7 @@ function M.setup()
 	hi("StatusLine", { fg = c.foreground, bg = c.black })
 	hi("StatusLineNC", { fg = c.darkgray, bg = c.black })
 	hi("Pmenu", { fg = c.foreground, bg = c.background })
-	hi("PmenuSel", { fg = c.foreground, bg = c.black })
+	hi("PmenuSel", { fg = c.foreground, bg = c.darkgray })
 	hi("EndOfBuffer", { fg = c.background })
 
 	-- Syntax
