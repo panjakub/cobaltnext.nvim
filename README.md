@@ -16,7 +16,7 @@ In this fork, we restructured the plugin to support both the original **Dark** v
 
 ```lua
 {
-  "DanVicenteIhanus/cobaltnext.nvim",
+  "panjakub/cobaltnext.nvim",
   name = "cobaltnext",
   lazy = false,
   priority = 1000,
