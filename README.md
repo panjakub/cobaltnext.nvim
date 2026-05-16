@@ -1,24 +1,40 @@
-
 # 🌌 cobaltnext.nvim
 
-A Neovim colorscheme based on the Ghostty **cobaltnext-dark** palette, based on the [CobaltNext VSCode](https://github.com/davidleininger/cobaltnext-vscode/) (I suppose). 
+A Neovim colorscheme based on the [CobaltNext VSCode](https://github.com/davidleininger/cobaltnext-vscode/) Themes.
 
-## Installation (LazyVim / lazy.nvim)
+In this fork, we restructured the plugin to support both the original **Dark** variant as well as the **Default** Cobalt Next palette.
+
+## Previews
+
+### Default (Cobalt Next)
+![Cobalt Next Default](./example.png)
+
+### Dark (Cobalt Next Dark)
+![Cobalt Next Dark](./dark.png)
+
+## Installation (lazy.nvim)
 
 ```lua
 {
-  "panjakub/cobaltnext.nvim",
+  "DanVicenteIhanus/cobaltnext.nvim",
   name = "cobaltnext",
+  lazy = false,
   priority = 1000,
   config = function()
-    vim.cmd.colorscheme("cobaltnext_dark")
+    -- Load your preferred variant here
+    vim.cmd.colorscheme("cobaltnext") 
   end,
 }
 ```
 
-*Disclaimer*: Purely vibe-coded with some minor manual tweaks.
-I just like the ghostty theme and I wanted to use that in Neovim.
-I may improve that myself and I'm happy to respond to any issues and pull requests.
+## Usage
 
-*Disclaimer 2*: I'm borderline colorblind so the color names are my best guesses.
-I'm happy to fix them to what they're actually are if you tell me the colors. 
+Because this fork supports multiple palettes, you can hot-swap between them on the fly without restarting Neovim:
+
+```vim
+" Load the Default Cobalt Next palette
+:colorscheme cobaltnext
+
+" Load the Cobalt Next Dark palette
+:colorscheme cobaltnext_dark
+```
