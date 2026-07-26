@@ -2,7 +2,7 @@
 
 A Neovim colorscheme based on the [CobaltNext VSCode](https://github.com/davidleininger/cobaltnext-vscode/) Themes.
 
-In this fork, we restructured the plugin to support both the original **Dark** variant as well as the **Default** Cobalt Next palette.
+Supports both the original **Dark** variant as well as the **Default** Cobalt Next palette.
 
 ## Previews
 
